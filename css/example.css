@@ -1,0 +1,41 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  border: 1px solid black;
+  row-gap: 15px;
+}
+
+.item {
+  border: 1px solid pink;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#item1 {
+}
+
+ol li:nth-child(last) {
+  color: red;
+}
+
+#image {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+p {
+  color: red;
+  font-size: 16px;
+}
+#fancy {
+  color: green;
+}
+
+.plain {
+  color: black;
+  font-size: 12px;
+}
+
+body {
+  background-image: url("images/about.jpg");
+}
